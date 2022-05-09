@@ -1,7 +1,12 @@
 import React from 'react'
+import './App.css'
+import Header from './components/ui/Header'
+
 
 export default function App(){
     return(
-        <h1>This is new</h1>
+        <div className='App'>
+            <Header />
+        </div>
     )
 }
