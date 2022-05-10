@@ -10,7 +10,7 @@ export default function App(){
     const[items, setItems]=useState([])
     const[isLoading, setIsloading]=useState(true)
     const[query, setQuery]=useState('')
-
+    
 
 useEffect(()=>{
     const fetchItems=async()=>{
